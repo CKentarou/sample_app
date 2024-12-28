@@ -1,6 +1,9 @@
 Rails.application.routes.draw do
   get '/top' => 'homes#top'
   resources :lists
+
+  #ターミナルで「rails routes」と打てばルーティングが確認できる。
+  
   # get 'lists/new'
   # post 'lists' => 'lists#create'
   # get 'lists' => 'lists#index'
